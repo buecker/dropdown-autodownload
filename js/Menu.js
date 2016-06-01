@@ -40,7 +40,7 @@
                             createInnerElements(wavList, i-1 );
                             var anchor2 = wavList.getElementsByTagName('a')[j];
                             anchor2.innerText = songList[i];
-                            DownloadFile(anchor2, "Songs/" + anchor.innerText + ".wav")
+                            DownloadFile(anchor2, "Songs/wav/" + anchor2.innerText + ".wav")
                             j++;
                         }
                         else {
